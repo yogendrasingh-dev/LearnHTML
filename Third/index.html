@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML FORM</title>
+		<link rel="shortcut icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
+	</head>
+	<body style="font-family: sans-serif">
+		<div hidden>
+			<h1>HTML FORM</h1>
+			<h1>Youtube</h1>
+			<form action="https://www.youtube.com/results">
+				<label for="youtube">Search Youtube</label>
+				<input type="text" name="search_query" placeholder="youtube" />
+				<button>Search on Youtube</button>
+			</form>
+			<h1>Flipkart</h1>
+			<form action="https://www.flipkart.com/search">
+				<input id="youtube" type="text" name="q" placeholder="flipkart" />
+				<button type="submit">Search on Flipkart</button>
+			</form>
+			<h1>Own Page</h1>
+			<form action="/">
+				<input type="text" name="search" placeholder="Search..." />
+			</form>
+			<br />
+			<br />
+			<h1>My From</h1>
+			<form action="/">
+				<label for="name">Name</label>
+				<input id="name" type="text" name="a" placeholder="Enter your name" required />
+				<input type="email" name="b" placeholder="Enter your email" required />
+				<input type="number" min="20" max="25" />
+				<input type="password" minlength="4" maxlength="15" />
+				<input type="tel" />
+				<input type="submit" value="Search" />
+				<button>Submit</button>
+			</form>
+		</div>
+		<br />
+		<h2>Login Form</h2>
+		<form action="/">
+			<p>
+				<div>
+					<label for="uname">Username</label>
+				</div>
+				<input id="uname" name="name" type="text" placeholder="Enter your name"  />
+			</p>
+			<p>
+			<div>
+				<label for="email">Email</label>
+			</div>
+			<input id="email" name="email" type="email" placeholder="Enter your email" required />
+			</p>
+			<p>
+				<div>
+					<label for="mobile">Mobile</label>
+				</div>
+				<input id="mobile" type="tel" placeholder="Enter your mobile number"  />
+				</p>
+				<p>
+					<div>
+						<label for="pass">Password</label>
+					</div>
+					<input id="pass" type="password" placeholder="Enter your password" required  />
+					</p>
+					
+					<p>
+						<input id="check"type="checkbox" required/>
+						<label for="check">I agree all terms & conditions</label>
+					</p>
+					<button type="reset">Reset</button>
+					<button type="submit">Login</button>
+				
+		</form>
+	</body>
+</html>
